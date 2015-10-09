@@ -1,0 +1,3 @@
+[submodule "login_script"]
+	path = login_script
+	url = https://github.com/XGHeaven/i-hdu-wifi-login.git

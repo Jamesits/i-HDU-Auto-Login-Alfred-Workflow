@@ -12,18 +12,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>E7284FC9-7604-49C6-8EFF-64EE8841EA32</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-			</dict>
-		</array>
-		<key>E7284FC9-7604-49C6-8EFF-64EE8841EA32</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>D61A6993-6D0E-4785-9B18-DD5F3C82055A</string>
+				<string>35F90864-33DC-4D11-B1DD-07FF8E10A13B</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -34,38 +23,13 @@
 	<key>createdby</key>
 	<string>James Swineson</string>
 	<key>description</key>
-	<string>Login to i-HDU within a command!</string>
+	<string>Login to i-HDU with a command!</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
 	<string>i-HDU Auto Login</string>
 	<key>objects</key>
 	<array>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>lastpathcomponent</key>
-				<false/>
-				<key>onlyshowifquerypopulated</key>
-				<true/>
-				<key>output</key>
-				<integer>0</integer>
-				<key>removeextension</key>
-				<false/>
-				<key>sticky</key>
-				<false/>
-				<key>text</key>
-				<string>{query}</string>
-				<key>title</key>
-				<string>i-HDU Auto Login</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.notification</string>
-			<key>uid</key>
-			<string>D61A6993-6D0E-4785-9B18-DD5F3C82055A</string>
-			<key>version</key>
-			<integer>0</integer>
-		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -94,14 +58,14 @@
 				<integer>102</integer>
 				<key>script</key>
 				<string>source ~/.bash_profile
-echo $(/usr/bin/env python3 login.py)</string>
+/usr/bin/env bash ./wifi.sh</string>
 				<key>type</key>
 				<integer>0</integer>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>E7284FC9-7604-49C6-8EFF-64EE8841EA32</string>
+			<string>35F90864-33DC-4D11-B1DD-07FF8E10A13B</string>
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
@@ -110,17 +74,12 @@ echo $(/usr/bin/env python3 login.py)</string>
 	<string></string>
 	<key>uidata</key>
 	<dict>
-		<key>D61A6993-6D0E-4785-9B18-DD5F3C82055A</key>
+		<key>35F90864-33DC-4D11-B1DD-07FF8E10A13B</key>
 		<dict>
 			<key>ypos</key>
 			<real>60</real>
 		</dict>
 		<key>D866DA1D-5E55-49F2-AF16-AB9C87C22355</key>
-		<dict>
-			<key>ypos</key>
-			<real>60</real>
-		</dict>
-		<key>E7284FC9-7604-49C6-8EFF-64EE8841EA32</key>
 		<dict>
 			<key>ypos</key>
 			<real>60</real>

@@ -2,6 +2,8 @@
 
 This is an Alfred workflow which enables you to login to i-HDU with the command `hdu`. 
 
+[Download Here](https://github.com/Jamesits/i-HDU-Auto-Login-Alfred-Workflow/releases/latest)
+
 ## Usage
 
 1. Edit `~/.i-hdu` in the following format: 

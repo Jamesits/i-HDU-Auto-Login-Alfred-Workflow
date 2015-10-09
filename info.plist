@@ -34,7 +34,7 @@
 	<key>createdby</key>
 	<string>James Swineson</string>
 	<key>description</key>
-	<string></string>
+	<string>Login to i-HDU within a command!</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
@@ -127,6 +127,6 @@ echo $(/usr/bin/env python3 login.py)</string>
 		</dict>
 	</dict>
 	<key>webaddress</key>
-	<string></string>
+	<string>https://github.com/Jamesits/i-HDU-Auto-Login-Alfred-Workflow</string>
 </dict>
 </plist>

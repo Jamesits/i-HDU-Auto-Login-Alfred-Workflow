@@ -93,7 +93,8 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>echo $(/usr/bin/env python3 login.py)</string>
+				<string>source ~/.bash_profile
+echo $(/usr/bin/env python3 login.py)</string>
 				<key>type</key>
 				<integer>0</integer>
 			</dict>
